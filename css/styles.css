@@ -5,3 +5,35 @@ body{
 ul{
   list-style-type: none;
 }
+
+#jav{
+  display: none;
+}
+
+.modu{
+  display: none;
+}
+
+.dat{
+  display: none;
+}
+
+.arr{
+  display: none;
+}
+
+.ceil{
+  display: none;
+}
+
+.var{
+  display: none;
+}
+
+#but6{
+  display: none;
+}
+
+#vaj{
+  display: none;
+}
