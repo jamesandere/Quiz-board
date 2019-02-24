@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>Rasili Club Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Luckiest+Guy|Playfair+Display|Staatliches" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </head>
@@ -13,9 +15,30 @@
     <div class="ras">
       <div class="jumbotron">
         <h1>Rasili Club</h1>
-        <p>Congratulations on making it to the end of the Javascript course. In order o get your certificate you'll need to take the final test.</p>
+        <p>Congratulations on making it to the end of the Javascript course. In order to get your certificate you'll need to take the final test.</p>
       </div>
       <button id="but0" class="btn btn-primary" type="button" name="button">Take Test</button>
+    </div>
+    <div class="dets">
+      <h3>Enter Your Details</h3>
+      <h4>Name:</h4>
+      <input id="name" type="text" name="name" value="" placeholder="Enter your name..">
+      <h4>Student ID No:</h4>
+      <input id="stud" type="number" name="id" value="" placeholder="Enter your student ID no..">
+      <h4>Email:</h4>
+      <input id="email" type="email" name="email" value="" placeholder="Enter your email.."><br>
+      <button id="but00" class="btn btn-primary" type="button" name="button">Submit</button>
+    </div>
+
+    <div class="row">
+      <div class="adm">
+        <h2>Welcome!</h2>
+        <img src="https://image.flaticon.com/icons/svg/47/47930.svg" alt="" width="300px" height="300px">
+      <h4 class="name"></h4>
+      <h4 class="stude"></h4>
+      <h4 class="em"></h4>
+      <button id="but000" class="btn btn-primary" type="button" name="button">Proceed</button>
+      </div>
     </div>
     <div id="vaj" class="jumbotron">
       <h1 id="jav">Javascript Quiz</h1>
