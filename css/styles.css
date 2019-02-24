@@ -8,6 +8,12 @@ ul{
 
 #jav{
   display: none;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Staatliches', cursive;
+  font-family: 'Baloo', cursive;
 }
 
 .adm{
@@ -56,7 +62,7 @@ ul{
 }
 
 #but00,#but000,#but1,#but2,#but3,#but4,#but5,#but6{
-  border-radius: 15px;
+  border-radius: 20px;
   font-size: 20px;
   padding: 10px;
 }
@@ -69,8 +75,35 @@ ul{
   float: left;
   margin-right: 50px;
   font-family: 'Abril Fatface', cursive;
-font-family: 'Bree Serif', serif;
-font-family: 'Luckiest Guy', cursive;
-font-family: 'Playfair Display', serif;
-font-family: 'Staatliches', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Staatliches', cursive;
+  }
+
+#but0:hover,#but00:hover,#but000:hover,#but1:hover,#but2:hover,#but3:hover,#but4:hover,#but5:hover,#but6:hover{
+  background-color: #212121;
+}
+
+#head{
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Baloo', cursive;
+  font-family: 'Anton', sans-serif;
+}
+
+.dets>input{
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#ent,#wel{
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Staatliches', cursive;
+  font-family: 'Baloo', cursive;
 }

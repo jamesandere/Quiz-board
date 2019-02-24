@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Luckiest+Guy|Playfair+Display|Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Baloo|Bree+Serif|Luckiest+Guy|Playfair+Display|Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Baloo|Bree+Serif|Luckiest+Guy|Playfair+Display" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </head>
@@ -14,13 +16,15 @@
   <div class="container">
     <div class="ras">
       <div class="jumbotron">
-        <h1>Rasili Club</h1>
+        <h1 id="head" class="text-uppercase">Rasili Club</h1>
         <p>Congratulations on making it to the end of the Javascript course. In order to get your certificate you'll need to take the final test.</p>
       </div>
       <button id="but0" class="btn btn-primary" type="button" name="button">Take Test</button>
     </div>
     <div class="dets">
-      <h3>Enter Your Details</h3>
+      <div class="jumbotron">
+        <h3 id="ent">Enter Your Details</h3>
+      </div>
       <h4>Name:</h4>
       <input id="name" type="text" name="name" value="" placeholder="Enter your name..">
       <h4>Student ID No:</h4>
@@ -29,30 +33,29 @@
       <input id="email" type="email" name="email" value="" placeholder="Enter your email.."><br>
       <button id="but00" class="btn btn-primary" type="button" name="button">Submit</button>
     </div>
-
-    <div class="row">
-      <div class="adm">
-        <h2>Welcome!</h2>
-        <img src="https://image.flaticon.com/icons/svg/47/47930.svg" alt="" width="300px" height="300px">
+    <div class="adm">
+      <div class="jumbotron">
+        <h2 id="wel">Welcome. Good luck!</h2>
+      </div>
+      <img src="https://image.flaticon.com/icons/svg/47/47930.svg" alt="" width="300px" height="300px">
       <h4 class="name"></h4>
       <h4 class="stude"></h4>
       <h4 class="em"></h4>
-      <button id="but000" class="btn btn-primary" type="button" name="button">Proceed</button>
-      </div>
+       <button id="but000" class="btn btn-primary" type="button" name="button">Proceed</button>
     </div>
     <div id="vaj" class="jumbotron">
       <h1 id="jav">Javascript Quiz</h1>
     </div>
     <form id="questions" name="first">
 
-      <div class="modu">
-        <h3>1.What is the value of the following expression: 8%3?</h3>
-        <ul>
-          <li><input id="mod" type="radio" name="que1" value="0" ><strong>5</strong></li>
-          <li><input id="mod" type="radio" name="que1" value="5" ><strong>2</strong></li>
-          <li><input id="mod" type="radio" name="que1" value="0" ><strong>3</strong></li>
-          <li><input id="mod" type="radio" name="que1" value="0" ><strong>2.67</strong></li>
-        </ul>
+  <div class="modu">
+    <h3>1.What is the value of the following expression: 8%3?</h3>
+      <ul>
+        <li><input id="mod" type="radio" name="que1" value="0" ><strong>5</strong></li>
+        <li><input id="mod" type="radio" name="que1" value="5" ><strong>2</strong></li>
+        <li><input id="mod" type="radio" name="que1" value="0" ><strong>3</strong></li>
+        <li><input id="mod" type="radio" name="que1" value="0" ><strong>2.67</strong></li>
+      </ul>
         <button id="but1" class="btn btn-primary" type="button" name="button" onclick = "" >Next</button>
       </div>
       <div class="dat">
@@ -85,24 +88,24 @@
         </ul>
         <button id="but4" class="btn btn-primary" type="button" name="button" onclick = "" >Next</button>
       </div>
-      <div class="var">
+    <div class="var">
         <h3>5.Which of the following asserts that variables 'A', 'B' and 'C' have unequal values?</h3>
-        <ul>
-          <li><input type="radio" name="quest5" value="0" ><strong>A ===B && B === C && C===A</strong></li>
-          <li><input type="radio" name="quest5" value="0" ><strong>A === B || B === C || C === A</strong></li>
-          <li><input type="radio" name="quest5" value="5" ><strong>A !== B && B !== C && A !== C</strong></li>
-          <li><input type="radio" name="quest5" value="0" ><strong>A & B = C</strong></li>
-        </ul>
-        <button id="but5" class="btn btn-primary" type="button" name="button" onclick = "" >Submit</button>
-      </div>
-    </form>
+    <ul>
+      <li><input type="radio" name="quest5" value="0" ><strong>A ===B && B === C && C===A</strong></li>
+      <li><input type="radio" name="quest5" value="0" ><strong>A === B || B === C || C === A</strong></li>
+      <li><input type="radio" name="quest5" value="5" ><strong>A !== B && B !== C && A !== C</strong></li>
+      <li><input type="radio" name="quest5" value="0" ><strong>A & B = C</strong></li>
+    </ul>
+    <button id="but5" class="btn btn-primary" type="button" name="button" onclick = "" >Submit</button>
+    </div>
+  </form>
     <button id="but6" class="btn btn-primary" type="button" name="button" onclick = "" >Go back</button>
-    <div class="">
+  <div class="">
       <h3 id="results" class="text-uppercase"></h3>
       <h3 id ="outcome"></h3>
       <img id ="img" alt="" >
     </div>
-    <button id="but6" class="btn btn-primary" type="button" name="button" onclick = "" >Go back</button>
+  <button id="but6" class="btn btn-primary" type="button" name="button" onclick = "" >Go back</button>
   </div>
 </body>
 </html>
