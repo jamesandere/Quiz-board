@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 # quiz-board
 #### This is an online quiz about Javascript.
-=======
-# Quiz-board
-This is an online quiz about Javascript.
->>>>>>> 08e3a37a49aa1cdfa9bbad92eeb0ceac6c91f07d
 # Date of current version
 23 February, 2019
 #### By **James Andere**
@@ -20,17 +15,10 @@ This is a Javascript test for Rasili Club. The quiz contains five questions whic
 No bugs
 ## Technologies Used
 I used HTML for the web structure
-<<<<<<< HEAD
-I used CSS for styling
-I used Javascript for functionality
-=======
 
 I used CSS for styling
 
 I used Javascript for functionality
-## Live Link
-url: https://jamesandere.github.io/Quiz-board/
->>>>>>> 08e3a37a49aa1cdfa9bbad92eeb0ceac6c91f07d
 ## Support and contact details
 Contact me through email: jamesandere56@gmail.com
 ### License
