@@ -107,3 +107,9 @@ ul{
   font-family: 'Staatliches', cursive;
   font-family: 'Baloo', cursive;
 }
+
+.name,.stude,.em{
+  border-bottom: 2px solid black;
+  width: 250px;
+  padding: 20px;
+}
