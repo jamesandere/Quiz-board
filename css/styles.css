@@ -10,6 +10,9 @@ ul{
   display: none;
 }
 
+.adm{
+  display: none;
+}
 .modu{
   display: none;
 }
@@ -38,6 +41,9 @@ ul{
   display: none;
 }
 
+.dets{
+  display: none;
+}
 .ras{
   text-align: center;
 }
@@ -49,8 +55,17 @@ ul{
   font-size: 30px;
 }
 
-#but1,#but2,#but3,#but4,#but5,#but6{
+#but00,#but000,#but1,#but2,#but3,#but4,#but5,#but6{
   border-radius: 15px;
   font-size: 20px;
   padding: 10px;
+}
+
+#but00{
+  margin-top: 20px;
+}
+
+#results{
+  float: left;
+  margin-right: 50px;
 }
