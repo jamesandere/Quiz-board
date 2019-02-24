@@ -19,6 +19,8 @@ I used HTML for the web structure
 I used CSS for styling
 
 I used Javascript for functionality
+## Live Link
+url: https://jamesandere.github.io/Quiz-board/
 ## Support and contact details
 Contact me through email: jamesandere56@gmail.com
 ### License
